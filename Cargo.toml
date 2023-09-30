@@ -19,3 +19,4 @@ image = { version = "0.24.7", default-features = false, features = [
     "jpeg",
 ] }
 anyhow = "1.0.75"
+cgmath = "0.18.0"
