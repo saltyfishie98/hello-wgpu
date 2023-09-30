@@ -14,3 +14,8 @@ log = "0.4.20"
 pollster = "0.3.0"
 wgpu = "0.17.1"
 winit = "0.28.7"
+image = { version = "0.24.7", default-features = false, features = [
+    "png",
+    "jpeg",
+] }
+anyhow = "1.0.75"
